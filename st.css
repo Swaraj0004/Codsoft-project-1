@@ -1,0 +1,240 @@
+/* Reset default margin and padding */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+/* Set background color and font family */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+/* Header navigation bar */
+.header-nav {
+  background-color: #f0f0f0;
+  text-align: right; 
+  padding: 20px 20px; 
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+  width: 100%; 
+}
+.header-nav img {
+  margin: 0px 30px;
+  height: 25px; 
+  width: auto; 
+  float: left; 
+}
+.header-nav .company-name {
+  float: left;
+  margin-left: 15px; 
+  color: rgb(0, 0, 0); 
+  font-size: 24px;
+}
+.header-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav li {
+  display: inline; /* Keeps the list items in a line */
+}
+
+.header-nav li a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#link{
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 20px 30px;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+}
+#yt{
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 20px 100px;
+  border-radius: 15px;
+  background-color: rgb(194, 194, 194);
+}
+/* Navigation bar */
+.navbar {
+  background-color: #f0f0f0;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Main section styles */
+.main-section {
+  margin-top: 30px; 
+  margin-bottom: 40px; 
+  text-align: left;
+  padding: 50px;
+}
+.main-section img {
+  margin: 0px 30px; 
+  height: 700px; 
+  width: auto; 
+  float: right ; 
+}
+
+.main-heading {
+  font-size: 27px;
+  font-weight: bold;
+  color: #0074d9;
+}
+.main-head {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #010203;
+}
+.head {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #010203;
+}
+.subheading {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+/* CSS to style the button */
+#designButton {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #413ac1; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.feature {
+  margin-top: 30px; 
+  text-align: left;
+}
+.txt {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 40px;
+  color: #000000;
+}
+.text {
+  font-size: 14px;
+  color: #000000;
+}
+.tet {
+  margin-top: 10px; 
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+}
+.contact{
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.contact h2 {
+  color: #333;
+}
+
+.contact p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.contact .email{
+  font-weight: bold;
+}
+.contact .phone {
+  text-decoration: none;
+  font-weight: bold;
+}
+.form-container {
+  margin-top: 20px;
+  color: #090000;
+  padding: 50px;
+  border-radius: 5px;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Feature blocks */
+.feature-block {
+  width: 400px;
+  height: 100px;
+  border: 2px solid black;
+  padding: 10px ;
+  margin: 20px;
+}
+.feature-i {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  padding: 40px ;
+}
+.feature img {
+  margin: 0px 30px; 
+  height: 600px; 
+  width: auto; 
+  float: right ; 
+}
+.container {
+  display: flex;
+}
+
+.box {
+  width: 400px; 
+  height: 50px; 
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.feature-icon {
+  font-size: 24px;
+  color: #0074d9;
+}
+.feature-tet {
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+}
+.feature-text {
+  font-size: 14px;
+  color: #555;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px ;
+  text-align: center;
+  position: fixed;
+  left :0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
